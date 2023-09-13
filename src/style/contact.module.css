@@ -1,0 +1,30 @@
+.flex{
+    display: flex;
+    border-radius: 25px;
+    margin: 0 auto;
+    justify-content: center;
+}
+.logoImage{
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+.borderRadious{
+    border-radius: 25px;
+}
+.LinkSection{
+    padding: 2rem;
+}
+.linktext{
+    font-size: 1.8rem;
+}
+.icon{
+    font-size: 1.8rem;
+}
+.LinkMain{
+    justify-content: left !important;
+
+}
+.LinkMain:is(:hover,:focus){
+    color: var(--heading);
+}

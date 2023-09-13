@@ -1,0 +1,30 @@
+.card{
+    border: var(--white-border);
+    border-radius: 15px;
+    padding: 1rem;
+    max-width: 44rem;
+    min-height: 24rem;
+    max-height: 34rem;
+    margin-top: 2rem!important;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.card:is(:hover, :focus){
+    transform: translateY(-.5rem);
+}
+.image{
+    border-radius: 50%;
+}
+.flex{
+    display: flex;
+}
+.flex p{
+    transform: translateY(2.5rem);
+    font-size: 1.8rem;
+}
+
+.Blogcard{
+    padding: 1rem !important;
+    max-width: 75rem;
+}

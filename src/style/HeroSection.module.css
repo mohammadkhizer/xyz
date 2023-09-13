@@ -1,0 +1,48 @@
+.twoColumn{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    padding: 2rem;
+}
+.heroHeading{
+    color: var(--heading);
+}
+.heropara{
+    line-height: 1.8rem;
+}
+.btnBox{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Img{
+    min-width: 50%;
+    width: 50%;
+    height: 50vh;
+    background: url("/background.jpg");
+    background-size: cover;
+    background-position: left;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+@media screen and (max-width: 990px){
+    .box{
+        padding: 1rem;
+    }
+    .Img{
+        min-width: 30%;
+        clip-path: polygon(58% 0, 100% 0%, 100% 100%, 0% 100%);
+    }
+}
+@media screen and (max-width: 770px){
+    .Img{
+        display: none;
+    }
+    .boxOne{
+        width: 100%;
+        border: var(--white-border);
+    }
+}
+@media screen and (max-width: 660px){
+
+}

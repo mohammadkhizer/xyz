@@ -1,0 +1,82 @@
+.center{
+    margin: 0 auto;
+    text-align: center;
+    justify-content: space-between;
+}
+.primarybg{
+    background: var(--Primary-Background);
+}
+.secondaryBackground{
+    background: var(--secondary-Background);
+}
+.border{
+    border: var(--white-border);
+}
+.main{
+    margin-top: 8rem !important;
+    margin-left: 17rem;
+    margin-right: 2rem;
+    padding: 3rem;
+}
+.hiddne{
+    visibility: hidden;
+}
+.commonHeading{
+    font-size: 4.8rem;
+    font-weight: 600;
+    margin-bottom: 6rem;
+    text-transform: capitalize;
+    position: relative;
+    color: var(--heading);
+}
+.commonHeading::before{
+    content: "";
+    position: absolute;
+    top: 105%;
+    left: 0;
+    height: 1.5rem;
+    background: var(--white);
+    width: 1.5rem;
+    border-radius: 50%;
+}
+.commonHeading::after{
+    content: "";
+    position: absolute;
+    left: 1.5rem;
+    top: 115%;
+    background: var(--white);
+    height: .3rem;
+    min-width: 15rem;
+}
+.flex{
+    display: flex;
+}
+.notFound{
+    background: url("/background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 75vw;
+}
+@media screen and (max-width: 990px){
+    .main{
+        padding: 1.5rem;
+        margin-left: 15rem;
+    }
+}
+@media screen and (max-width: 660px){
+    .main{
+        margin-left: 10rem;
+    }
+}
+@media screen and (max-width: 505px){
+    .main{
+        margin-left: 7rem;
+    }
+}
+@media screen and (max-width: 417px){
+    .main{
+        margin-left: 4rem;
+        margin-right: .5rem;
+    }
+}
