@@ -1,5 +1,4 @@
 import Styles from '@/style/tutorial.module.css';
-import common from "@/style/common.module.css"
 import Image from "next/image";
 import Link from "next/link";
 
@@ -21,7 +20,7 @@ const Project = () => {
                 <Image src="/project 2.png" alt="Project 2" className={Styles.image} width="350" height="250" /><br/><br/>
                 <h3>Student Management System</h3><br/>
                 <p>Language: PHP</p><br/>
-                <Link href="/Project_not_found" target="_blank">
+                <Link href="/projectsnotfound" target="_blank">
                     <button>
                         Read More
                     </button>

@@ -47,7 +47,6 @@ const Notes = [
 
 ];
 
-
 const Page = () => {
     return (
         <div className={common.main}>
