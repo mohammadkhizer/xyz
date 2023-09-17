@@ -1,7 +1,6 @@
 import styles from "@/style/services.module.css"
 import common from "@/style/common.module.css";
 import { FaReact } from "react-icons/fa6";
-import Link from "next/link";
 import {FaPaintBrush} from "react-icons/fa";
 import {SiTaichigraphics} from "react-icons/si";
 

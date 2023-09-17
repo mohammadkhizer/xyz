@@ -3,7 +3,7 @@ import styles from "@/style/Navbar.module.css"
 import common from "@/style/common.module.css";
 import Link from "next/link";
 import {FaHome, FaInstagram} from "react-icons/fa";
-import { FaCode,FaBlog,FaMessage,FaReact } from "react-icons/fa6";
+import { FaCode,FaMessage,FaReact } from "react-icons/fa6";
 
 const LeftBar = () => {
     return (

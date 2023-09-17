@@ -52,9 +52,7 @@
     display: flex;
 }
 .notFound{
-    background: url("/background.jpg");
-    background-size: cover;
-    background-position: center;
+    background: url("/background.jpg") cover center;
     height: 50vh;
     width: 75vw;
 }
