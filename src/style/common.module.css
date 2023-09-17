@@ -67,6 +67,7 @@
 @media screen and (max-width: 660px){
     .main{
         margin-left: 10rem;
+        padding: .5rem;
     }
 }
 @media screen and (max-width: 505px){
@@ -78,5 +79,6 @@
     .main{
         margin-left: 4rem;
         margin-right: .5rem;
+
     }
 }

@@ -28,3 +28,33 @@
 .LinkMain:is(:hover,:focus){
     color: var(--heading);
 }
+.box2{
+    display: none;
+}
+@media screen and (max-width: 1025px){
+    .linktext{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 869px){
+    .icon{
+        font-size: 1.2rem;
+    }
+}@media screen and (max-width: 827px){
+    .box1{
+        display: none;
+    }
+}
+@media screen and (max-width: 537px){
+    .linktext{
+        font-size: .9rem;
+    }
+    .logoImage{
+        height: 150px;
+        width: 150px;
+    }
+    .icon{
+        display: none;
+    }
+}

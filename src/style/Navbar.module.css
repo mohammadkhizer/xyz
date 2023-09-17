@@ -37,6 +37,15 @@
 .icon{
     font-size: 1.8rem;
 }
+.white{
+    border: var(--white-border);
+}
+.socialIcon{
+    font-size: 1.8rem;
+    color: var(--white);
+    background: var(--instaIcon) !important;
+    border-radius: 5px;
+}
 @media screen and (max-width: 990px){
     .leftbar{
         width: 13rem;
