@@ -2,21 +2,21 @@
     background: var(--Primary-Background);
     padding: 1rem;
     max-width: 24rem;
-    min-height: 30rem;
-    max-height: 30rem;
-    margin-top: 2rem;
+    min-height: 27rem;
+    max-height: 31rem;
+    margin-top: 2rem !important;
     border-radius: 25px;
-    box-shadow: var(--glass-shadow);
+    box-shadow: none;
 }
 
-.card:is(:hover, :focus){
-    transform: translateY(-1.5rem);
-}
+
 .flex{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    justify-content: space-evenly;
+    grid-template-columns: repeat(2,1fr);
     gap: 1rem;
+    background: var(--secondary-Background) !important;
+    margin: 0 auto;
+    justify-content: space-evenly !important;
 }
 .selectBox{
     width: 10rem;
@@ -38,21 +38,61 @@
     border-radius: 5px;
 }
 
+@keyframes updown{
+    0%{
+        transform: translateY(0px);
+    }
+    25%
+    {
+        transform: translateY(5px);
+    }
+    50%{
+        transform: translateY(0px);
+    }
+    75%
+    {
+        transform: translateY(5px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
 @media screen and (max-width: 990px){
     .flex{
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(auto-fit);
         gap: 2rem;
+    }
+    .card{
+        max-width: 15rem;
+        box-shadow: none;
+    }
+    .image{
+        height: 200px;
+        width: 200px;
     }
 }
 @media screen and (max-width: 838px){
     .flex{
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns:  repeat(1,1fr);
     }
 }
 @media screen and (max-width: 505px){
     .main{
         margin-left: 7rem;
     }
+    .card{
+        max-width: 15rem;
+        max-height: 10rem;
+        min-height: 23rem;
+    }
+    .flex{
+        grid-template-columns:  repeat(auto-fit);
+    }
+    .image{
+        background-position: center;
+        background-size: cover;
+    }
+
 }
 @media screen and (max-width: 417px){
     .main{
